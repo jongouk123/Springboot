@@ -1,2 +1,2 @@
 # Springboot
-Springboot study &amp; Using GitHub for the first time
+Studying Springboot &amp; Using GitHub for the first time
