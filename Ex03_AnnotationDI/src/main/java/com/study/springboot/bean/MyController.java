@@ -11,7 +11,7 @@ public class MyController {
 	@Autowired // 빈이 생성될 때 member1 변수가 참조할 객체를 자동으로 찾아온다. Member 클래스 타입으로 등록된 빈이 하나뿐이므로 추가 정보가 없어도 찾아온다.
 	Member member1;
 	@Autowired // 빈이 생성될 때 printer 변수가 참조할 객체를 자동으로 찾아온다.
-	@Qualifier("printerB")  // 유사한 객체가 printerA, printerB 등 여러 개일 때, 빈의 이름으로 정확하게 지정한다.
+	@Qualifier("printerB")  // Printer를 구현한 객체가 printerA, printerB 등 여러 개일 때, 빈의 이름으로 정확하게 지정한다.
 	Printer printer;
 	@Autowired
 	Member member2;
